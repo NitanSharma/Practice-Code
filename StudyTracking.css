@@ -3,7 +3,8 @@ div{
     width:500px ;
     background-color: #DDA0DD;
     border: 2px solid black;
-    justify-content: center;
+    display: flexbox;
+    flex-wrap: wrap;
     
 }
 h1{
