@@ -1,12 +1,30 @@
 div{
     height: 500px;
     width:500px ;
-    background-color: #DDA0DD;
+    background-color:#FFE6E6;
     border: 2px solid black;
-    display: flexbox;
-    flex-wrap: wrap;
     
 }
 h1{
+    color: #7469B6;
     text-align: center;
 }
+ol{
+    color: #AD88C6;
+}
+li:hover{
+    font-weight: 700;
+    color: #7469B6;
+}
+button{
+    background-color: #AD88C6;
+    font-weight: 700;
+    
+}
+button:hover{
+    background-color: #7469B6;
+}
+span{
+    text-align: center;
+}
+
