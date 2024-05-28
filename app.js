@@ -135,3 +135,32 @@
                 console.log(`YOU GOT IT! ITS TAKE ${attempts} guess`);
             }*/
           
+                    //  TO-DO LIST APP IN Console
+                /*    let input =prompt("What you want to do : ");
+                    const todo =['Eat'];
+        
+                    while(input !== 'quit' && input !== 'q'){
+                        input =prompt("What you want to do : ");
+
+                        if(input === 'list'){
+                            console.log("*********");
+                           for(let i=0; i<todo.length; i++){
+                            console.log(`${i}: ${todo[i]}`);
+                           }
+                            console.log("************");
+                        }else if(input === 'new'){
+                            const newtodo = prompt("What you want to add : ");
+                            todo.push(newtodo);
+                            console.log(`${newtodo} added to the list!`);
+                        }else if(input === 'delete'){
+                            const index= parseInt(prompt("Enter an index to delete :"));
+                            if(!Number.isNaN(index)){
+                                const deleted = todo.splice(index,1);
+                                console.log( `deleted ${deleted[0]}`);
+                            }else{
+                                console.log("Unknown index");
+                            }                           
+                        }
+                    }
+                    console.log("OK YOU QUIT APP");*/
+                    
