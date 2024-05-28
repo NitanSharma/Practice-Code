@@ -103,3 +103,35 @@
             //    }else{
             //     console.log("Element does not exist in array");
             //    }
+
+
+            // Udemy Gussing Game
+          /*  let maximum =parseInt(prompt("Enter the maximum number : "));
+            while(!maximum){
+                maximum = parseInt(prompt("Enter the valid number : "));
+            }
+            const targetnum =Math.floor(Math.random() * maximum) + 1;
+            console.log(targetnum); 
+
+            let guess =prompt("Enter your first guess (Enter 'q' for Quit ) : ");
+            let attempts =1;
+            while(parseInt(guess) !== targetnum){
+                if(guess ==='q') break;
+                guess = parseInt(guess);
+                if(guess > targetnum){
+                    guess = prompt("Too high! Enter a new guess:");
+                    attempts++;
+                }else if(guess < targetnum){
+                    guess = prompt("Too low! Enter a new guess:");
+                    attempts++;
+                }else{
+                    guess = prompt("Invalid Guess! Enter number or 'q' for quit");
+                }
+            }
+            if(guess === 'q'){
+                console.log(`OK YOU QUITTING!`);
+            }else{
+                console.log("YOU WIN!");
+                console.log(`YOU GOT IT! ITS TAKE ${attempts} guess`);
+            }*/
+          
