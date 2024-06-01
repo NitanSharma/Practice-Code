@@ -163,4 +163,28 @@
                         }
                     }
                     console.log("OK YOU QUIT APP");*/
+
+                    // Multiplication table of 5
+                    // for(let i=1; i<=10; i++){
+                    //     console.log(`5 * ${i} = ${5*i}`);
+                    // }
+
+                    //Generating Random number
+                   
+                    //Assignment 4 JS:
+                    //ANS 1 : 
+                    let arr =[1,2,3,4,5,6,2,3]
+                    let num =2;
+                    for(let i=0; i<arr.length; i++){
+                        if(arr[i] == num){
+                           arr.shift(i);
+                        }else if(arr[i] == num){
+                            arr.shift(i);
+                        }
+                       
+                    }
+
+                    for(let i=0; i<arr.length; i++){
+                        console.log(arr[i] + " ");
+                    }
                     
