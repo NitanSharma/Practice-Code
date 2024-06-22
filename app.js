@@ -173,18 +173,27 @@
                    
                     //Assignment 4 JS:
                     //ANS 1 : 
-                    let arr =[1,2,3,4,5,6,2,3]
-                    let num =2;
-                    for(let i=0; i<arr.length; i++){
-                        if(arr[i] == num){
-                           arr.shift(i);
-                        }else if(arr[i] == num){
-                            arr.shift(i);
-                        }
-                       
-                    }
+                    // let arr =[1,2,3,4,5,6,2,3];
+                    // let num =2;
 
-                    for(let i=0; i<arr.length; i++){
-                        console.log(arr[i] + " ");
-                    }
+                    // for(let i=0; i<arr.length; i++){
+                    //     if(arr[i] == num){
+                    //       arr.splice(i,1);
+                    //     }            
+                    // }
+                    // console.log(arr);
+
+                    //Ans 2 : Number of digit in a number
+                    // let num =287152;
+                    // let count =0;
+
+                    // let copy= num;
+                    // while(copy > 0){
+                    //     count++;
+                    //     copy = Math.floor(copy/10);
+                    // }
+                    // console.log(count)
+
+                    //ANS 3 : Sum of digit in a number
                     
+                   
