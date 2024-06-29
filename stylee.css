@@ -1,0 +1,44 @@
+:root{
+    --main-color-- : orange;
+}
+
+body{
+    background: url('sander-traa-p3wy5MS2rUo-unsplash.jpg');
+    background-repeat:no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+   
+}
+h1{
+   height: 40px;
+   width: 250px;
+    color: #fff;
+    opacity: 0.4;
+    /* position:absolute;
+    top: 40%;
+    left: 45%; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 2px;  
+}
+h1:hover{
+    opacity: 1;
+}
+.text{
+    background: teal;
+    font-size: larger;
+    color: #fff;
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+}
+div p{
+    padding: 10px;
+}
+
+
